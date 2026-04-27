@@ -1,13 +1,8 @@
-# Emoji Intelligence Unit
-## COMP6713 — Natural Language Processing Emoji Intelligence Unit
-### University of New South Wales, T1 2026
-
----
-
-## Project Title
 **Emoji Sarcasm Detection in Messages**
 
-An emoji-aware sarcasm/irony classifier for short social media messages. This project investigates whether explicit emoji handling improves sarcasm detection compared to text-only baselines, using Twitter and sarcasm-specific datasets.
+Sarcasm and irony detection is a well-known NLP challenge, made harder on social media where meaning is often conveyed through emojis rather than words alone. Most existing approaches strip emojis during preprocessing, ignoring a signal that frequently acts as a sentiment amplifier or irony marker.
+This project investigates whether explicit emoji handling via Emoji Sentiment Ranking (ESR) lexicon features improves binary sarcasm/irony classification over text-only baselines. We evaluate across TweetEval (irony) and iSarcasmEval (sarcasm), comparing four systems: TF-IDF + Logistic Regression, pre-trained RoBERTa-irony, pre-trained BERT, and a fine-tuned Twitter-RoBERTa each tested under three emoji-handling modes (removed, retained, replaced with descriptors).
+Research question: Does incorporating explicit emoji semantics improve sarcasm/irony detection, and at which stage of the pipeline does it matter most?.
 
 ---
 
