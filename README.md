@@ -1,8 +1,10 @@
 # **Emoji Sarcasm Detection in Messages**
 
 Sarcasm and irony detection is a well-known NLP challenge, made harder on social media where meaning is often conveyed through emojis rather than words alone. Most existing approaches strip emojis during preprocessing, ignoring a signal that frequently acts as a sentiment amplifier or irony marker.
+
 This project investigates whether explicit emoji handling via Emoji Sentiment Ranking (ESR) lexicon features improves binary sarcasm/irony classification over text-only baselines. We evaluate across TweetEval (irony) and iSarcasmEval (sarcasm), comparing four systems: TF-IDF + Logistic Regression, pre-trained RoBERTa-irony, pre-trained BERT, and a fine-tuned Twitter-RoBERTa each tested under three emoji-handling modes (removed, retained, replaced with descriptors).
-Research question: Does incorporating explicit emoji semantics improve sarcasm/irony detection, and at which stage of the pipeline does it matter most?.
+
+**Research question:** Does incorporating explicit emoji semantics improve sarcasm/irony detection, and at which stage of the pipeline does it matter most?.
 
 ---
 
