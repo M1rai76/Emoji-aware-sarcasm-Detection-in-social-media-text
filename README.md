@@ -11,17 +11,6 @@ An emoji-aware sarcasm/irony classifier for short social media messages. This pr
 
 ---
 
-## Team Members
-
-| Name | zID |
-|---|---|
-| Samyak Diwan | z5611048 |
-| (Gurdiraj Bal) | z5386590 |
-| (To Sang Ngan) | z5342080 |
-| (Junwei Wang) | z5328887 |
-
----
-
 ## Project Structure
 
 ```
